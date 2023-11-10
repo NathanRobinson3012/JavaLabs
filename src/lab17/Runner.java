@@ -4,7 +4,6 @@ public class Runner {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
 		Map map = new Map(300,300);
 		Submarine sub = new Submarine (10,10,map);
 		System.out.println(sub.details());
